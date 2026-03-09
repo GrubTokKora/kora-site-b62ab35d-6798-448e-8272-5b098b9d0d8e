@@ -178,6 +178,29 @@ section h2 {
   background: #222;
 }
 
+/* Events */
+.events-grid {
+  display: grid;
+  gap: calc(var(--spacing-unit) * 2);
+  text-align: left;
+}
+
+.event-item {
+  background: #2c2c2c;
+  padding: calc(var(--spacing-unit) * 1.5);
+  border-radius: 5px;
+}
+
+.event-item h3 {
+  color: var(--color-primary);
+}
+
+.event-item .event-date {
+  font-style: italic;
+  color: #aaa;
+  margin-bottom: calc(var(--spacing-unit) * 0.5);
+}
+
 /* Footer */
 .footer {
   background: #111;

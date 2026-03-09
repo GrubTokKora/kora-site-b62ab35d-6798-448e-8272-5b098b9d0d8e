@@ -6,6 +6,11 @@ const events = [
     date: "March 25, 2025",
     description: "Join us for a vibrant celebration of Holi-Dhuleti! We're offering special colorful pizzas and drinks to celebrate the festival of colors. A feast for your eyes and your taste buds!",
   },
+  {
+    name: "Diwali: Festival of Lights Celebration",
+    date: "April 30, 2026",
+    description: "Celebrate Diwali, the festival of lights, with us! We'll be lighting up our pizzeria with special decorations and offering a unique 'Diya' pizza, glowing with golden corn and bright peppers. A truly illuminating dining experience!",
+  },
 ];
 
 const Events: FC = () => {

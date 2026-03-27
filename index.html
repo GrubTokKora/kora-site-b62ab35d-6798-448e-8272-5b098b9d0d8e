@@ -1,19 +1,68 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
-    <title>Grimaldi's Pizzeria</title>
-  </head>
-  <body>
-    <div
-      id="root"
-      data-kora-business-id="__KORA_BUSINESS_ID__"
-    ></div>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>Grimaldi's Pizzeria – Classic Coal-Fired Brick Oven Pizza in Brooklyn</title>
+  <meta name="description" content="Grimaldi's Pizzeria is renowned for its classic, coal-fired brick oven pizzas, offering a traditional New York-style experience with fresh ingredients and a crispy, smoky crust.">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Grimaldi's Pizzeria – Classic Coal-Fired Brick Oven Pizza in Brooklyn">
+  <meta property="og:description" content="Grimaldi's Pizzeria is renowned for its classic, coal-fired brick oven pizzas, offering a traditional New York-style experience with fresh ingredients and a crispy, smoky crust.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1513104890138-7c749659a591?q=80&w=2070&auto=format&fit=crop">
+  <meta property="og:url" content="https://www.grimaldispizzeria.com/locations/1-front-street-brooklyn/">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Grimaldi's Pizzeria – Classic Coal-Fired Brick Oven Pizza in Brooklyn">
+  <meta name="twitter:description" content="Grimaldi's Pizzeria is renowned for its classic, coal-fired brick oven pizzas, offering a traditional New York-style experience with fresh ingredients and a crispy, smoky crust.">
+  <meta name="twitter:image" content="https://images.unsplash.com/photo-1513104890138-7c749659a591?q=80&w=2070&auto=format&fit=crop">
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://www.grimaldispizzeria.com/locations/1-front-street-brooklyn/">
+
+  <!-- Preload Hero Image -->
+  <link rel="preload" as="image" href="https://images.unsplash.com/photo-1513104890138-7c749659a591?q=80&w=2070&auto=format&fit=crop">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+
+  <!-- JSON-LD Structured Data -->
+  <script type="application/ld+json" id="kora-jsonld">
+  {
+    "@context": "https://schema.org",
+    "@type": "Restaurant",
+    "name": "Grimaldi's Pizzeria",
+    "description": "Grimaldi's Pizzeria is renowned for its classic, coal-fired brick oven pizzas, offering a traditional New York-style experience with fresh ingredients and a crispy, smoky crust.",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "1 Front St, Brooklyn, NY 11201, USA"
+    },
+    "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?q=80&w=2070&auto=format&fit=crop",
+    "servesCuisine": "Pizza"
+  }
+  </script>
+
+  <!-- Kora Runtime Configuration -->
+  <script>
+      window.KORA_CONFIG = {
+  "apiBaseUrl": "https://kora-agent.quseappdev.com",
+  "features": {
+    "voice": {
+      "enabled": true,
+      "provider": "xai"
+    }
+  }
+};
+    </script>
+</head>
+<body>
+  <div id="root"></div>
+  <script type="module" src="/src/main.tsx"></script>
+</body>
 </html>
